@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Time Zone Meeting Scheduler</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🕒 Time Zone Meeting Scheduler</h1>
+    <p>Enter at least two city names (e.g., New York, London, Hyderabad)</p>
+    <input type="text" id="citiesInput" placeholder="Separate cities with commas">
+    <button onclick="findMeetingTimes()">Find Overlapping Times</button>
+    
+    <div id="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
